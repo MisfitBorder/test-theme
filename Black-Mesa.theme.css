@@ -28,8 +28,6 @@
   100% {
     transform: translate(calc(100% / 2 + 8px), 0);
   }
-}
-
 #app-mount,
 .app .layers .layer,
 .app .layers,
