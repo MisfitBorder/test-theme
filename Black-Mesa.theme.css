@@ -1,3 +1,4 @@
+.app { background-image: url(https://i.imgur.com/3gjudYm.jpg) !important; background-size: cover !important; }
 :root{
   --Notification-Colour: rgba(243, 124, 27, 1);
   --S-Colour: rgba(0,0,0, .3);
@@ -27,8 +28,6 @@
     transform: translate(calc(100% / 2 + 8px), 0);
   }
 }
-
-.app { background-image: url(https://i.imgur.com/3gjudYm.jpg) !important; background-size: cover !important; }
 
 #app-mount,
 .app .layers .layer,
