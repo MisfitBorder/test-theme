@@ -1,32 +1,5 @@
-:root{
-  --Notification-Colour: rgba(243,124,27, 1);
-  --S-Colour: rgba(0,0,0, 0);
-}
-.contentSelectedText-3j5CXt {
-  font-size: 14px;
-  background: rgba(0,0,0, 0)!important;
-}
+.app { background-image: url(https://i.imgur.com/3gjudYm.jpg) !important; background-size: cover !important; }
 
-.contentSelectedText-3j5CXt:before {
-  content: "";
-  width: calc(100% - 36px - 8px);
-  height: calc(100% - 2px);
-  position: absolute;
-  display: block;
-  left: 36;
-  top: 1;
-  background: linear-gradient(to right, transparent, var(--S-Colour), var(--Notification-Colour), var(--S-Colour), transparent);
-  animation: shakeUnread2 2s ease-in-out infinite alternate;
-}    
-
-@keyframes shakeUnread2 {
-  0% {
-    transform: translate(calc(100% / -2 - 36px), 0);
-  }
-
-  100% {
-    transform: translate(calc(100% / 2 + 8px), 0);
-  }
 #app-mount,
 .app .layers .layer,
 .app .layers,
