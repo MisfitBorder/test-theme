@@ -1,0 +1,222 @@
+.app { background-image: url(https://i.imgur.com/LggLzPp.jpg) !important; background-size: cover !important; }
+
+#app-mount,
+.app .layers .layer,
+.app .layers,
+.typing,
+.content,
+.flex-spacer,
+.container-RYiLUQ,
+.messages-wrapper,
+.popout-menu, /* Server Menu (Popout) */
+.popout-menu-item, /* Server Menu (Popout item) */
+#friends, /* Friends Section */
+.container-2OU7Cz,
+#rtc-connection,
+.ui-standard-sidebar-view {
+	background-color: transparent !important;
+}
+
+.titleBar-3_fDwJ { margin-top: 0px; padding-top: 4px; }
+
+.messages-wrapper,
+.friends-table,
+.messages-wrapper,
+#friends .friends-header,
+.titleBar-3_fDwJ,
+.content-region /* Settings - Right Side */ {
+	background-color:  rgba(0,0,0,0.80) !important;
+}
+
+.channel-members,
+.channels-3g2vYe /* Direct Messages Side Bar */ {
+	background-color: rgba(0,0,0,0.70) !important;
+}
+
+.guilds-wrapper /* Guilds (Left SideBar) */,
+.title-qAcLxz,
+.headerBar-cxbhPD, /* Friends Section Header */
+.sidebar-region /* Settings - Left Side */ {
+	background-color: rgba(0,0,0,0.60) !important;
+}
+
+.chat form { /* Chat Box */
+	margin: 0px !important;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgba(0,0,0,0.60) !important;
+	/* height: 106px; */
+	padding: 6.5px 20px;
+	display: flex !important;
+	flex-shrink: 0 !important;
+	margin: 0 20px;
+	position: relative;
+}
+
+.channels-3g2vYe,
+.chat .content,
+.title-qAcLxz,
+.channel-members-wrap,
+.content-region {
+    border-left-color: #2b33ce;
+    border-left-width: 1px !important;
+    border-left-style: solid;
+}
+
+.container-3lnMWU,
+.container-3NvGrL,
+.private-channels .search-bar,
+.title-qAcLxz {
+    border-top-color: #2b33ce;
+    border-top-width: 1px !important;
+    border-top-style: solid;
+    border-bottom-color: #2B33CE;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid;
+}
+
+.guilds-wrapper,
+.chat form,
+.container-iksrDt {
+    border-top-color: #2b33ce;
+    border-top-width: 1px !important;
+    border-top-style: solid;
+    background: rgba(255, 255, 255, 0);
+}
+
+.channel-members h2 {
+	width: 50%;
+	color: #FFF !important;
+	background-color: #2B33CE;
+	text-align: center;
+	border-radius: 4px;
+	border-bottom:0px solid #000;
+	border-top:0px solid #000;
+	border-left: 15px;
+	border-right: 15px;
+	padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    margin: 29px auto 9px;
+}
+
+.channel-members .member:hover{
+    background: rgba(206,66,43,0.30) !important;
+}
+
+
+.popout-menu .popout-menu-item.leave {
+	background: rgba(220,0,0,0.75) !important;
+	color: #fff !important;
+}
+
+.popout-menu .popout-menu-item {
+	background-color: rgba(0,0,0,0.75) !important;
+	color: #b9bbbe !important;
+}
+
+.popout-menu .popout-menu-separator {
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #2B33CE;
+}
+
+#friends .friends-table {
+	margin-top: 0px;
+	padding-top: 8px;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb,
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+	background-color: #2B33CE;
+	border-color: transparent;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece,
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.itemDefaultSelected-1UAWLe,
+.itemBrandSelected-3LxxzT,
+#bd-settings-sidebar .ui-tab-bar-item.selected,
+.buttonBrandFilled-3Mv0Ra,
+.themeDefault-3M0dJU.valueChecked-3Bzkbm,
+.barFill-18ABna,
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
+.bd-pfbtn,
+.ui-standard-sidebar-view .bda-slist .bda-right button {
+	background-color: #2B33CE;
+	color: #FFF;
+}
+
+.buttonBrandFilled-3Mv0Ra:hover {
+	background-color: #b93b26;
+}
+
+.itemBrand-mC9YR4 {
+	color: #2B33CE;
+}
+
+.itemDanger-3m3dwx {
+	color: #FFF;
+	background-color: rgb(240, 71, 71);
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span,
+.themeClear-1NqU69.valueChecked-3Bzkbm,
+.tab-bar .tab-bar-item.tab-bar-item-primary,
+.tab-bar .tab-bar-item.selected,
+.chat .new-messages-bar {
+	background-color: #2B33CE !important;
+	border-color: #2B33CE;
+  color: #FFF !important;
+}
+
+.mention { color: #2B33CE }
+.mention:hover { color: #FFF; background-color: #2B33CE !important; }
+.sidebar-region .sidebar { padding-bottom: 0px !important; }
+
+.popout-menu .popout-menu-separator {
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #2B33CE;
+}
+
+.popout-menu .popout-menu-item:hover {
+	background-color: #ce422b !important;
+	color: #fff !important;
+}
+
+body {
+	font-family: "Arial Black";
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-size-adjust: 100%;
+}
+
+.message-group .comment .markup pre code,
+.message-group .comment .markup code.inline {
+	background-color: #000 !important;
+}
+
+.message-group .comment .markup pre code {
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #ce422b !important;
+    padding: 0 !important;
+}
+
+.item-2zi_5J[style*="background-color: rgb(114, 137, 218);"] {
+	background-color: #2B33CE !important;
+	border-color: #2B33CE !important;
+}
+
+.checkbox-1QwaS4[style*="border-color: rgb(114, 137, 218);"] {
+	border-color: #2B33CE !important;
+}
+
+.checkbox-1QwaS4[style*="border-color: rgb(114, 137, 218);"] polyline {
+	stroke: #2B33CE !important;
+}
